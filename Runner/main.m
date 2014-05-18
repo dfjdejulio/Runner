@@ -1,18 +1,27 @@
 //
 //  main.m
-//  Runner
+//  runner
 //
-//  Created by Doug DeJulio on 5/17/14.
+//  Created by Doug DeJulio on 5/18/14.
 //  Copyright (c) 2014 AISB. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "HelloSailorCommand.h"
 
-#import "AppDelegate.h"
-
-int main(int argc, char * argv[])
+int main(int argc, const char * argv[])
 {
+    int i;
+
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        Command *cmd = [HelloSailorCommand new];
+        for (i = 1; i < argc; i++) {
+            cmd.input = @(argv[i]);
+            [cmd execute];
+            printf("%d: %s → %s\n", i, argv[i], cmd.output.UTF8String);
+        }
+
     }
+    return 0;
 }
+

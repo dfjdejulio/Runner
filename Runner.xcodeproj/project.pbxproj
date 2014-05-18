@@ -22,6 +22,7 @@
 		47124B8819280D30005C11CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47124B8619280D30005C11CE /* InfoPlist.strings */; };
 		47124B8A19280D30005C11CE /* RunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47124B8919280D30005C11CE /* RunnerTests.m */; };
 		4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483519285CFC00F50553 /* KBBLayoutConstraint.m */; };
+		4747483A19289E6200F50553 /* DefaultCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* DefaultCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,9 @@
 		47124B8919280D30005C11CE /* RunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunnerTests.m; sourceTree = "<group>"; };
 		4747483419285CFC00F50553 /* KBBLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBLayoutConstraint.h; sourceTree = "<group>"; };
 		4747483519285CFC00F50553 /* KBBLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBLayoutConstraint.m; sourceTree = "<group>"; };
+		4747483719289E0C00F50553 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		4747483819289E6200F50553 /* DefaultCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultCommand.h; sourceTree = "<group>"; };
+		4747483919289E6200F50553 /* DefaultCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,9 @@
 		47124B6119280D30005C11CE /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				4747483719289E0C00F50553 /* Command.h */,
+				4747483819289E6200F50553 /* DefaultCommand.h */,
+				4747483919289E6200F50553 /* DefaultCommand.m */,
 				47124B6A19280D30005C11CE /* AppDelegate.h */,
 				47124B6B19280D30005C11CE /* AppDelegate.m */,
 				47124B6D19280D30005C11CE /* Main.storyboard */,
@@ -255,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47124B7519280D30005C11CE /* ViewController.m in Sources */,
+				4747483A19289E6200F50553 /* DefaultCommand.m in Sources */,
 				47124B6C19280D30005C11CE /* AppDelegate.m in Sources */,
 				4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */,
 				47124B6819280D30005C11CE /* main.m in Sources */,

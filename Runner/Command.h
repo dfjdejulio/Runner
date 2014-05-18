@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol Command <NSObject>
+@interface Command : NSObject
 
 @property (readwrite, copy) NSString *input;
 @property (readonly, copy) NSString *output;
+@property (readonly, nonatomic) NSString *name;
 
 - (void) execute;
 

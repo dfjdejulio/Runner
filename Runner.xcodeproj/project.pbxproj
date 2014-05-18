@@ -23,6 +23,16 @@
 		47124B8A19280D30005C11CE /* CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47124B8919280D30005C11CE /* CommandTests.m */; };
 		4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483519285CFC00F50553 /* KBBLayoutConstraint.m */; };
 		4747483A19289E6200F50553 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
+		47512F00192951AB00B2E719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47124B5B19280D30005C11CE /* Foundation.framework */; };
+		47512F03192951AB00B2E719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47512F02192951AB00B2E719 /* main.m */; };
+		47512F07192951AB00B2E719 /* runnersh.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47512F06192951AB00B2E719 /* runnersh.1 */; };
+		47512F10192951F900B2E719 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47124B7D19280D30005C11CE /* XCTest.framework */; };
+		47512F16192951F900B2E719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47512F14192951F900B2E719 /* InfoPlist.strings */; };
+		47512F1F1929520F00B2E719 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
+		47512F201929521000B2E719 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
+		47512F211929521500B2E719 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
+		47512F221929521500B2E719 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
+		47512F231929521E00B2E719 /* CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47124B8919280D30005C11CE /* CommandTests.m */; };
 		4781FE14192903AA0053A57B /* EXTENDED_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4781FE13192903AA0053A57B /* EXTENDED_README.md */; };
 		47C047D31929188C000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
 		47C047D419291E03000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
@@ -37,7 +47,27 @@
 			remoteGlobalIDString = 47124B5719280D30005C11CE;
 			remoteInfo = Runner;
 		};
+		47512F1A192951F900B2E719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47124B5019280D2F005C11CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47512EFE192951AB00B2E719;
+			remoteInfo = runnersh;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47512EFD192951AB00B2E719 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				47512F07192951AB00B2E719 /* runnersh.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		47124B5819280D30005C11CE /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +94,14 @@
 		4747483719289E0C00F50553 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		4747483819289E6200F50553 /* HelloSailorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloSailorCommand.h; sourceTree = "<group>"; };
 		4747483919289E6200F50553 /* HelloSailorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloSailorCommand.m; sourceTree = "<group>"; };
+		47512EFF192951AB00B2E719 /* runnersh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = runnersh; sourceTree = BUILT_PRODUCTS_DIR; };
+		47512F02192951AB00B2E719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47512F05192951AB00B2E719 /* runnersh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "runnersh-Prefix.pch"; sourceTree = "<group>"; };
+		47512F06192951AB00B2E719 /* runnersh.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = runnersh.1; sourceTree = "<group>"; };
+		47512F0F192951F900B2E719 /* Runner Tests for OS X.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runner Tests for OS X.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47512F13192951F900B2E719 /* Runner Tests for OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runner Tests for OS X-Info.plist"; sourceTree = "<group>"; };
+		47512F15192951F900B2E719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47512F19192951F900B2E719 /* Runner Tests for OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner Tests for OS X-Prefix.pch"; sourceTree = "<group>"; };
 		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4781FE13192903AA0053A57B /* EXTENDED_README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EXTENDED_README.md; sourceTree = "<group>"; };
 		47C047D21929188C000EFA25 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
@@ -90,6 +128,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47512EFC192951AB00B2E719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47512F00192951AB00B2E719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47512F0C192951F900B2E719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47512F10192951F900B2E719 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,6 +152,8 @@
 			children = (
 				47124B6119280D30005C11CE /* Runner */,
 				47124B8319280D30005C11CE /* RunnerTests */,
+				47512F01192951AB00B2E719 /* runnersh */,
+				47512F11192951F900B2E719 /* Runner Tests for OS X */,
 				47124B5A19280D30005C11CE /* Frameworks */,
 				47124B5919280D30005C11CE /* Products */,
 				4781FE121928FEF70053A57B /* README.md */,
@@ -110,6 +166,8 @@
 			children = (
 				47124B5819280D30005C11CE /* Runner.app */,
 				47124B7C19280D30005C11CE /* RunnerTests.xctest */,
+				47512EFF192951AB00B2E719 /* runnersh */,
+				47512F0F192951F900B2E719 /* Runner Tests for OS X.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +232,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47512F01192951AB00B2E719 /* runnersh */ = {
+			isa = PBXGroup;
+			children = (
+				47512F02192951AB00B2E719 /* main.m */,
+				47512F06192951AB00B2E719 /* runnersh.1 */,
+				47512F04192951AB00B2E719 /* Supporting Files */,
+			);
+			path = runnersh;
+			sourceTree = "<group>";
+		};
+		47512F04192951AB00B2E719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47512F05192951AB00B2E719 /* runnersh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47512F11192951F900B2E719 /* Runner Tests for OS X */ = {
+			isa = PBXGroup;
+			children = (
+				47512F12192951F900B2E719 /* Supporting Files */,
+			);
+			path = "Runner Tests for OS X";
+			sourceTree = "<group>";
+		};
+		47512F12192951F900B2E719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47512F13192951F900B2E719 /* Runner Tests for OS X-Info.plist */,
+				47512F14192951F900B2E719 /* InfoPlist.strings */,
+				47512F19192951F900B2E719 /* Runner Tests for OS X-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +306,41 @@
 			productReference = 47124B7C19280D30005C11CE /* RunnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		47512EFE192951AB00B2E719 /* runnersh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47512F0A192951AB00B2E719 /* Build configuration list for PBXNativeTarget "runnersh" */;
+			buildPhases = (
+				47512EFB192951AB00B2E719 /* Sources */,
+				47512EFC192951AB00B2E719 /* Frameworks */,
+				47512EFD192951AB00B2E719 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = runnersh;
+			productName = runnersh;
+			productReference = 47512EFF192951AB00B2E719 /* runnersh */;
+			productType = "com.apple.product-type.tool";
+		};
+		47512F0E192951F900B2E719 /* Runner Tests for OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47512F1C192951F900B2E719 /* Build configuration list for PBXNativeTarget "Runner Tests for OS X" */;
+			buildPhases = (
+				47512F0B192951F900B2E719 /* Sources */,
+				47512F0C192951F900B2E719 /* Frameworks */,
+				47512F0D192951F900B2E719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47512F1B192951F900B2E719 /* PBXTargetDependency */,
+			);
+			name = "Runner Tests for OS X";
+			productName = "Runner Tests for OS X";
+			productReference = 47512F0F192951F900B2E719 /* Runner Tests for OS X.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,6 +352,9 @@
 				TargetAttributes = {
 					47124B7B19280D30005C11CE = {
 						TestTargetID = 47124B5719280D30005C11CE;
+					};
+					47512F0E192951F900B2E719 = {
+						TestTargetID = 47512EFE192951AB00B2E719;
 					};
 				};
 			};
@@ -241,6 +373,8 @@
 			targets = (
 				47124B5719280D30005C11CE /* Runner */,
 				47124B7B19280D30005C11CE /* RunnerTests */,
+				47512EFE192951AB00B2E719 /* runnersh */,
+				47512F0E192951F900B2E719 /* Runner Tests for OS X */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +396,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				47124B8819280D30005C11CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47512F0D192951F900B2E719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47512F16192951F900B2E719 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +433,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47512EFB192951AB00B2E719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47512F211929521500B2E719 /* HelloSailorCommand.m in Sources */,
+				47512F03192951AB00B2E719 /* main.m in Sources */,
+				47512F1F1929520F00B2E719 /* Command.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47512F0B192951F900B2E719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47512F221929521500B2E719 /* HelloSailorCommand.m in Sources */,
+				47512F201929521000B2E719 /* Command.m in Sources */,
+				47512F231929521E00B2E719 /* CommandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -298,6 +460,11 @@
 			isa = PBXTargetDependency;
 			target = 47124B5719280D30005C11CE /* Runner */;
 			targetProxy = 47124B8119280D30005C11CE /* PBXContainerItemProxy */;
+		};
+		47512F1B192951F900B2E719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47512EFE192951AB00B2E719 /* runnersh */;
+			targetProxy = 47512F1A192951F900B2E719 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +489,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				47124B8719280D30005C11CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47512F14192951F900B2E719 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47512F15192951F900B2E719 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -469,6 +644,76 @@
 			};
 			name = Release;
 		};
+		47512F08192951AB00B2E719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runnersh/runnersh-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47512F09192951AB00B2E719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runnersh/runnersh-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47512F1D192951F900B2E719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Runner Tests for OS X/Runner Tests for OS X-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Runner Tests for OS X/Runner Tests for OS X-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47512F1E192951F900B2E719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Runner Tests for OS X/Runner Tests for OS X-Prefix.pch";
+				INFOPLIST_FILE = "Runner Tests for OS X/Runner Tests for OS X-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +743,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		47512F0A192951AB00B2E719 /* Build configuration list for PBXNativeTarget "runnersh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47512F08192951AB00B2E719 /* Debug */,
+				47512F09192951AB00B2E719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47512F1C192951F900B2E719 /* Build configuration list for PBXNativeTarget "Runner Tests for OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47512F1D192951F900B2E719 /* Debug */,
+				47512F1E192951F900B2E719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

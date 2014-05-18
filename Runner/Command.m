@@ -10,6 +10,8 @@
 
 @implementation Command
 
+@synthesize output = output;
+
 - (NSString *) getName
 {
     return @"_bogus_garbage";

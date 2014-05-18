@@ -21,8 +21,6 @@
 
 #pragma mark Properties
 
-@synthesize output = output;
-
 - (NSString *) getName
 {
     return @"JSEval";

@@ -41,6 +41,8 @@
 		47FFA68E19295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
 		47FFA68F19295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
 		47FFA69019295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
+		47FFA694192961DD00F1CA2A /* ScreenTestCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */; };
+		47FFA695192961DD00F1CA2A /* ScreenTestCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +113,8 @@
 		47C047D21929188C000EFA25 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEvalCommand.h; sourceTree = "<group>"; };
 		47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEvalCommand.m; sourceTree = "<group>"; };
+		47FFA692192961DD00F1CA2A /* ScreenTestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenTestCommand.h; sourceTree = "<group>"; };
+		47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenTestCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,10 +196,7 @@
 		47124B6119280D30005C11CE /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				4747483719289E0C00F50553 /* Command.h */,
-				47C047D21929188C000EFA25 /* Command.m */,
-				4747483819289E6200F50553 /* HelloSailorCommand.h */,
-				4747483919289E6200F50553 /* HelloSailorCommand.m */,
+				47FFA6911929614500F1CA2A /* Commands */,
 				47124B6A19280D30005C11CE /* AppDelegate.h */,
 				47124B6B19280D30005C11CE /* AppDelegate.m */,
 				47124B6D19280D30005C11CE /* Main.storyboard */,
@@ -205,8 +206,6 @@
 				47124B6219280D30005C11CE /* Supporting Files */,
 				4747483419285CFC00F50553 /* KBBLayoutConstraint.h */,
 				4747483519285CFC00F50553 /* KBBLayoutConstraint.m */,
-				47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */,
-				47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -274,6 +273,21 @@
 				47512F19192951F900B2E719 /* Runner Tests for OS X-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47FFA6911929614500F1CA2A /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				4747483719289E0C00F50553 /* Command.h */,
+				47C047D21929188C000EFA25 /* Command.m */,
+				4747483819289E6200F50553 /* HelloSailorCommand.h */,
+				4747483919289E6200F50553 /* HelloSailorCommand.m */,
+				47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */,
+				47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */,
+				47FFA692192961DD00F1CA2A /* ScreenTestCommand.h */,
+				47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */,
+			);
+			name = Commands;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,6 +441,7 @@
 				47FFA68D19295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				4747483A19289E6200F50553 /* HelloSailorCommand.m in Sources */,
 				47124B6C19280D30005C11CE /* AppDelegate.m in Sources */,
+				47FFA694192961DD00F1CA2A /* ScreenTestCommand.m in Sources */,
 				4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */,
 				47124B6819280D30005C11CE /* main.m in Sources */,
 			);
@@ -439,6 +454,7 @@
 				47C047D519291E05000EFA25 /* HelloSailorCommand.m in Sources */,
 				47124B8A19280D30005C11CE /* CommandTests.m in Sources */,
 				47FFA68E19295A5700F1CA2A /* JSEvalCommand.m in Sources */,
+				47FFA695192961DD00F1CA2A /* ScreenTestCommand.m in Sources */,
 				47C047D419291E03000EFA25 /* Command.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

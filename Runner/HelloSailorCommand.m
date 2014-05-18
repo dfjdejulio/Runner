@@ -10,8 +10,6 @@
 
 @implementation HelloSailorCommand
 
-@synthesize output = output;
-
 - (NSString *) getName
 {
     return @"HelloSailor";

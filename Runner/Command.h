@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Command : NSObject
+@interface Command : NSObject {
+    @protected NSString *output;
+}
 
 @property (readwrite, copy) NSString *input;
 @property (readonly, copy) NSString *output;

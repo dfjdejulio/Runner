@@ -22,6 +22,7 @@
 		47124B8819280D30005C11CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47124B8619280D30005C11CE /* InfoPlist.strings */; };
 		47124B8A19280D30005C11CE /* RunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47124B8919280D30005C11CE /* RunnerTests.m */; };
 		4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483519285CFC00F50553 /* KBBLayoutConstraint.m */; };
+		4781FE14192903AA0053A57B /* EXTENDED_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4781FE13192903AA0053A57B /* EXTENDED_README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		47124B8919280D30005C11CE /* RunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunnerTests.m; sourceTree = "<group>"; };
 		4747483419285CFC00F50553 /* KBBLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBLayoutConstraint.h; sourceTree = "<group>"; };
 		4747483519285CFC00F50553 /* KBBLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBLayoutConstraint.m; sourceTree = "<group>"; };
+		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4781FE13192903AA0053A57B /* EXTENDED_README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EXTENDED_README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				47124B8319280D30005C11CE /* RunnerTests */,
 				47124B5A19280D30005C11CE /* Frameworks */,
 				47124B5919280D30005C11CE /* Products */,
+				4781FE121928FEF70053A57B /* README.md */,
+				4781FE13192903AA0053A57B /* EXTENDED_README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +241,7 @@
 				47124B7719280D30005C11CE /* Images.xcassets in Resources */,
 				47124B6F19280D30005C11CE /* Main.storyboard in Resources */,
 				47124B6619280D30005C11CE /* InfoPlist.strings in Resources */,
+				4781FE14192903AA0053A57B /* EXTENDED_README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,6 +21,7 @@
 		47124B8019280D30005C11CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47124B5F19280D30005C11CE /* UIKit.framework */; };
 		47124B8819280D30005C11CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47124B8619280D30005C11CE /* InfoPlist.strings */; };
 		47124B8A19280D30005C11CE /* RunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47124B8919280D30005C11CE /* RunnerTests.m */; };
+		4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483519285CFC00F50553 /* KBBLayoutConstraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		47124B8519280D30005C11CE /* RunnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RunnerTests-Info.plist"; sourceTree = "<group>"; };
 		47124B8719280D30005C11CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47124B8919280D30005C11CE /* RunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunnerTests.m; sourceTree = "<group>"; };
+		4747483419285CFC00F50553 /* KBBLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBLayoutConstraint.h; sourceTree = "<group>"; };
+		4747483519285CFC00F50553 /* KBBLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBLayoutConstraint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				47124B7419280D30005C11CE /* ViewController.m */,
 				47124B7619280D30005C11CE /* Images.xcassets */,
 				47124B6219280D30005C11CE /* Supporting Files */,
+				4747483419285CFC00F50553 /* KBBLayoutConstraint.h */,
+				4747483519285CFC00F50553 /* KBBLayoutConstraint.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				47124B7519280D30005C11CE /* ViewController.m in Sources */,
 				47124B6C19280D30005C11CE /* AppDelegate.m in Sources */,
+				4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */,
 				47124B6819280D30005C11CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				47124B8F19280D30005C11CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47124B9019280D30005C11CE /* Build configuration list for PBXNativeTarget "RunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				47124B9219280D30005C11CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

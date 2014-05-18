@@ -9,22 +9,69 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="P4D-nr-8UR"/>
+                        <viewControllerLayoutGuide type="bottom" id="B5W-AM-SHF"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <view key="view" contentMode="scaleToFill" id="8kx-dm-s58">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-kr-RE1" userLabel="output">
+                                <rect key="frame" x="0.0" y="20" width="320" height="230"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ihx-I2-GY7" userLabel="input">
+                                <rect key="frame" x="20" y="270" width="205" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="execute:" destination="vXZ-lx-hvc" eventType="valueChanged" id="DXg-NS-dUi"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5c-0v-UhO">
+                                <rect key="frame" x="244" y="270" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Execute">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="execute:" destination="vXZ-lx-hvc" eventType="valueChanged" id="hKv-Va-1AA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ihx-I2-GY7" firstAttribute="centerY" secondItem="n5c-0v-UhO" secondAttribute="centerY" id="6Y2-4j-WrQ"/>
+                            <constraint firstItem="Ihx-I2-GY7" firstAttribute="leading" secondItem="8kx-dm-s58" secondAttribute="leading" constant="20" id="8Z0-eN-we8"/>
+                            <constraint firstAttribute="trailing" secondItem="n5c-0v-UhO" secondAttribute="trailing" constant="20" id="9hS-vb-LVA"/>
+                            <constraint firstItem="Ihx-I2-GY7" firstAttribute="top" secondItem="DhX-kr-RE1" secondAttribute="bottom" constant="20" id="EEB-nq-Ki6"/>
+                            <constraint firstAttribute="trailing" secondItem="DhX-kr-RE1" secondAttribute="trailing" id="NAk-24-Vcl"/>
+                            <constraint firstItem="B5W-AM-SHF" firstAttribute="top" secondItem="Ihx-I2-GY7" secondAttribute="bottom" constant="20" id="YwO-oz-2YV" userLabel="bottom" customClass="KBBLayoutConstraint"/>
+                            <constraint firstItem="DhX-kr-RE1" firstAttribute="top" secondItem="P4D-nr-8UR" secondAttribute="bottom" id="cBI-z9-w9l"/>
+                            <constraint firstItem="DhX-kr-RE1" firstAttribute="leading" secondItem="8kx-dm-s58" secondAttribute="leading" id="k1F-UD-tPn"/>
+                            <constraint firstAttribute="trailing" secondItem="Ihx-I2-GY7" secondAttribute="trailing" constant="95" id="kvT-Qg-cjY"/>
+                        </constraints>
                     </view>
+                    <keyCommands/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="320"/>
+                    <connections>
+                        <outlet property="input" destination="Ihx-I2-GY7" id="hXp-2f-ncT"/>
+                        <outlet property="output" destination="DhX-kr-RE1" id="eUt-8c-f7c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="151" y="323"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

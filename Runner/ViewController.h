@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KBBLayoutConstraint.h"
 
 @interface ViewController : UIViewController
+
+#pragma mark Outlets
+
+@property IBOutlet UITextView *output;
+@property IBOutlet UITextField *input;
+
+#pragma mark Actions
+
+- (IBAction) execute:(id)sender;
+
 
 @end

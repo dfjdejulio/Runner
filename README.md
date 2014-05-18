@@ -7,32 +7,26 @@ rapidly became key for me was the "command bean".  This was basically a POJO
 propperties, read-only (ie. "gettable") output properties, and a single
 "execute" method.
 
-The benefit was that it was so simple, it was trivial to load into command-line
-projects, frameworks, servlets, and even mostly-Javaless JSPs (due to how JSTL
-could interact with bean properties, the only actualy Java code you needed in
-the JSP was the "execute" call).  It let me run core logic code on the command
-line for debugging and then deploy it all over the damned place.
+I'm *not* sure it's a good idea to recreate this in Objective-C.  I *am* sure
+that I want to play around with the concept a bit.  I want to routinely use
+the same Objective-C code in OS X apps, iOS apps, AppleScript extensions,
+command-line programs, system "Services", and server-side apps.  Maybe this
+is the way to do it, and maybe it isn't.
 
-I've toyed with the idea of using the same pattern in Objective-C for a while
-now.  I'm not yet sure it's a good idea.  I _am_ sure that I want to reuse a
-lot of future code between OS X applications, iOS applications, command line
-tools, OS X "Services", AppleTalk extensions and server applications.  So,
-I _am_ sure I want to play around with the concept, and I'm sure I want
-frameworks to embed the things in all of those places, for my experiments.
-
-(I _really_ believe in the whole Unix "small pieces that you glue together to
-perform big tasks" idea.)
-
-It's been a pain in the tuchus getting such a framework for iOS that I'm
-happy with.  We're talking about a really trivial abstract design concept.
-I want a place to put in the input, a place to see all of my output, and a
-"go" button.
-
-That's not hard to build.  But doing it with _code_ that's as simple as the
-_concept_ has eluded me for a while.
-
-This project (as of May 2014) contains the iOS framework for running commands.
+This project (as of May 2014) contains an iOS "skeleton" for running these
+kinds of commands.
 
 Of Potential Interest
+===
+
+KBBLayoutConstraint
 ---
 
+This is a "magic" subclass of NSLayoutConstraint that registers for keyboard
+expose/hide events and adjusts its length by the amount the top of the keyboard
+moves.  What you do is, have exactly one layout constriant that connects to
+the bottom layout guide, make it the highest priority constraint, and change
+its class to this.  Then, whenever the keyboard appears, hides, or even changes
+in height (eg. switching between "en" and "ja"), your app acts like it can
+resize windows and everything just gets out of the keyboard's way.  And none
+of the keyboard layout handling code shows up anywhere else at all.

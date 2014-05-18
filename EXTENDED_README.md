@@ -12,7 +12,7 @@ Let me back up a bit.
 In 1989, I got access to a pre-release NeXT machine running version 0.8 of the
 operating system software (because I was at Carnegie Mellon, where the Mach
 kernel originated).  I was already focused on Unix development in C, but
-dissatisifed with both X11 and C++, so I took to Objective-C and AppKit like
+dissatisfied with both X11 and C++, so I took to Objective-C and AppKit like
 a fish to water.  I got my own NeXT machine and built up some real expertise
 when the 68040 machines were introduced and I bought a "slab".  We're
 talking about NeXTstep 2.0.
@@ -35,7 +35,7 @@ You may recall that this is basically the environment in which the original
 "Doom" was written.  It was an *awesome* dev environment, and I got good with
 it.  I wrote all sorts of tools, from things that sped up the day jobs of my
 friends by an order of magnitude to tools that ripped apart the map files of
-video games I was playig so I could study them.
+video games I was playing so I could study them.
 
 Then the language started to change.  Interface Builder and Project Builder
 split up.  Language features got added.
@@ -69,7 +69,7 @@ accelerating, with these crazy "properties" and "dot syntax" and "attributes"
 and "synthesize" and later, *garbage collection*... back in *my* day,
 we allocated objects by hand *and we liked it*!  But now instead of alloc
 and zones and stuff, I was supposed to use retain/release?  And *then* they
-jettisonded GCC, and could add even more off-the-wall features, and got rid of
+jettisoned GCC, and could add even more off-the-wall features, and got rid of
 retain/release, and we got a runtime with "Automatic Reference Counting"
 (ARC)... and don't even get me started on Clang-style "blocks".
 
@@ -90,12 +90,12 @@ Now, I always liked to be able to write simple standalone blocks of code with
 clear interfaces that were easy to debug.  So I'd write a C function or a Java
 class with a very simple, portable design, and run it a lot of different ways.
 Over the years, I'd tried to do that in Objective-C, and have been extremely
-dissatisifed with all of the scaffolding needed to get the job done on iOS.
+dissatisfied with all of the scaffolding needed to get the job done on iOS.
 
 The iPad made it worse, with needing to write two completely different NIB
 files (or XIB files or storyboards or whatever you kids are calling it these
 days; get off my lawn).  And don't even get me *started* with keyboard handling
-on iOS devices.  ("Oh, you're ediing a text field.  You didn't expect you'd
+on iOS devices.  ("Oh, you're editing a text field.  You didn't expect you'd
 still be able to *see* it, did you?")
 
 ### What I Did Here ###
@@ -105,7 +105,7 @@ of the "command bean" pattern, on iOS.  I want a place to type in stuff, a
 "go" button, and a place to see what happens to the stuff.  That ought to be
 simple.  It finally is.
 
-First, I created a single storyboard that works with any scren size.  You
+First, I created a single storyboard that works with any screen size.  You
 could have a 4" iPhone, a 4.5" iPhone, or an iPad, and the one scene in the
 storyboard will use autolayout to be basically sane.
 
@@ -138,10 +138,10 @@ constraint touches the "bottom layout guide", and that's the highest priority
 constraint.  You line everything up with that.  (One easy way to do that is to
 just have a superview that's glued to all four sides.  Or you could do what
 I did in this project.)  Then you build your design _as if_ iOS devices had
-arbitary screen sizes and windows could resize.  And then it all works.
+arbitrary screen sizes and windows could resize.  And then it all works.
 
 The upshot is, I've *finally* got an iOS "run this thing and show me what
-happens" skeleton that's as simle as I would have expected it to be back
+happens" skeleton that's as simple as I would have expected it to be back
 in 1989.
 
 ## Meanwhile... ##
@@ -158,7 +158,7 @@ was the benefit?  I could embed and use them *anywhere*.
 
 It was so simple, it was trivial to load into command-line
 projects, frameworks, servlets, and even mostly-Javaless JSPs (due to how JSTL
-could interact with bean properties, the only actualy Java code you needed in
+could interact with bean properties, the only actually Java code you needed in
 the JSP was the "execute" call).  It let me run core logic code on the command
 line for debugging and then deploy it all over the damned place.
 

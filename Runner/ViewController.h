@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DefaultCommand.h"
+#import "HelloSailorCommand.h"
 
 @interface ViewController : UIViewController
 
@@ -15,7 +15,7 @@
 
 @property IBOutlet UITextView *output;
 @property IBOutlet UITextField *input;
-@property IBOutlet DefaultCommand *command;
+@property IBOutlet Command *command;
 
 #pragma mark Actions
 

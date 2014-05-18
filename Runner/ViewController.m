@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DefaultCommand.h"
+#import "HelloSailorCommand.h"
 
 @interface ViewController ()
 
@@ -20,7 +20,7 @@
 - (void) awakeFromNib
 {
     // If you grow up in a nib file, this is your init.
-    self.command = [DefaultCommand new];
+    self.command = [HelloSailorCommand new];
 }
 
 #pragma mark Actions

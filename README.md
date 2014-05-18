@@ -1,5 +1,4 @@
-Runner
-===
+# Runner #
 
 Back in the early days of my time with Java, one of the design patterns that
 rapidly became key for me was the "command bean".  This was basically a POJO
@@ -16,11 +15,10 @@ is the way to do it, and maybe it isn't.
 This project (as of May 2014) contains an iOS "skeleton" for running these
 kinds of commands.
 
-Of Potential Interest
-===
+## Of Potential Interest ##
 
-KBBLayoutConstraint
----
+
+### KBBLayoutConstraint ###
 
 This is a "magic" subclass of NSLayoutConstraint that registers for keyboard
 expose/hide events and adjusts its length by the amount the top of the keyboard
@@ -30,3 +28,8 @@ its class to this.  Then, whenever the keyboard appears, hides, or even changes
 in height (eg. switching between "en" and "ja"), your app acts like it can
 resize windows and everything just gets out of the keyboard's way.  And none
 of the keyboard layout handling code shows up anywhere else at all.
+
+## History and Background ##
+
+(Nobody wants to read that.  If I'm wrong, go look at the EXTENDED_README.md
+file.)

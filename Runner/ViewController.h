@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HelloSailorCommand.h"
+#import "Command.h"
 
 @interface ViewController : UIViewController
 

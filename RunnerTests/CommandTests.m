@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 #import "Command.h"
 #import "HelloSailorCommand.h"
+#import "JSEvalCommand.h"
 
 @interface CommandTests : XCTestCase
 
@@ -42,6 +43,16 @@
     NSString *testOutputString = [NSString stringWithFormat:formatString, testInputString];
     Command *myCommand = [HelloSailorCommand new];
     myCommand.input = @"Sailor";
+    [myCommand execute];
+    XCTAssertEqualObjects(testOutputString, myCommand.output, @"Expected \"%@\", got \"%@\"", testOutputString, myCommand.output);
+}
+
+- (void)testJSEvalCommand
+{
+    Command *myCommand = [JSEvalCommand new];
+    NSString *testInputString = @"1+1";
+    NSString *testOutputString = @"2";
+    myCommand.input = testInputString;
     [myCommand execute];
     XCTAssertEqualObjects(testOutputString, myCommand.output, @"Expected \"%@\", got \"%@\"", testOutputString, myCommand.output);
 }

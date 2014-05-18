@@ -37,6 +37,10 @@
 		47C047D31929188C000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
 		47C047D419291E03000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
 		47C047D519291E05000EFA25 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
+		47FFA68D19295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
+		47FFA68E19295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
+		47FFA68F19295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
+		47FFA69019295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +109,8 @@
 		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4781FE13192903AA0053A57B /* EXTENDED_README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EXTENDED_README.md; sourceTree = "<group>"; };
 		47C047D21929188C000EFA25 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEvalCommand.h; sourceTree = "<group>"; };
+		47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEvalCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +205,8 @@
 				47124B6219280D30005C11CE /* Supporting Files */,
 				4747483419285CFC00F50553 /* KBBLayoutConstraint.h */,
 				4747483519285CFC00F50553 /* KBBLayoutConstraint.m */,
+				47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */,
+				47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -416,6 +424,7 @@
 			files = (
 				47124B7519280D30005C11CE /* ViewController.m in Sources */,
 				47C047D31929188C000EFA25 /* Command.m in Sources */,
+				47FFA68D19295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				4747483A19289E6200F50553 /* HelloSailorCommand.m in Sources */,
 				47124B6C19280D30005C11CE /* AppDelegate.m in Sources */,
 				4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */,
@@ -429,6 +438,7 @@
 			files = (
 				47C047D519291E05000EFA25 /* HelloSailorCommand.m in Sources */,
 				47124B8A19280D30005C11CE /* CommandTests.m in Sources */,
+				47FFA68E19295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				47C047D419291E03000EFA25 /* Command.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +449,7 @@
 			files = (
 				47512F211929521500B2E719 /* HelloSailorCommand.m in Sources */,
 				47512F03192951AB00B2E719 /* main.m in Sources */,
+				47FFA68F19295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				47512F1F1929520F00B2E719 /* Command.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +460,7 @@
 			files = (
 				47512F221929521500B2E719 /* HelloSailorCommand.m in Sources */,
 				47512F201929521000B2E719 /* Command.m in Sources */,
+				47FFA69019295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				47512F231929521E00B2E719 /* CommandTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -751,6 +763,7 @@
 				47512F09192951AB00B2E719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47512F1C192951F900B2E719 /* Build configuration list for PBXNativeTarget "Runner Tests for OS X" */ = {
 			isa = XCConfigurationList;
@@ -759,6 +772,7 @@
 				47512F1E192951F900B2E719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

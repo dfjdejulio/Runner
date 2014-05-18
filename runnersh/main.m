@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HelloSailorCommand.h"
+#import "JSEvalCommand.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        Command *cmd = [HelloSailorCommand new];
+        Command *cmd = [JSEvalCommand new];
         for (int i = 1; i < argc; i++) {
             cmd.input = @(argv[i]);
             [cmd execute];

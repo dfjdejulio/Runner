@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HelloSailorCommand.h"
+#import "JSEvalCommand.h"
 
 @interface ViewController ()
 
@@ -20,7 +20,7 @@
 - (void) awakeFromNib
 {
     // If you grow up in a nib file, this is your init.
-    self.command = [HelloSailorCommand new];
+    self.command = [JSEvalCommand new];
 }
 
 #pragma mark Actions
@@ -30,6 +30,8 @@
     self.command.input = self.input.text;
     [self.command execute];
     NSMutableString *outputBuffer = [[NSMutableString alloc] initWithString:self.output.text];
+    [outputBuffer appendString:self.command.input];
+    [outputBuffer appendString:@" → "];
     [outputBuffer appendString:self.command.output];
     [outputBuffer appendString:@"\n"];
     self.output.text = outputBuffer;

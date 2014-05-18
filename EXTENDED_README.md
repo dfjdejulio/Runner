@@ -100,7 +100,7 @@ still be able to *see* it, did you?")
 
 ### What I Did Here ###
 
-The basic idea behind the projet is to create a runtime for a single instance
+The basic idea behind the project is to create a runtime for a single instance
 of the "command bean" pattern, on iOS.  I want a place to type in stuff, a
 "go" button, and a place to see what happens to the stuff.  That ought to be
 simple.  It finally is.

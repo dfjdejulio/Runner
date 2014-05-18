@@ -29,6 +29,15 @@ in height (eg. switching between "en" and "ja"), your app acts like it can
 resize windows and everything just gets out of the keyboard's way.  And none
 of the keyboard layout handling code shows up anywhere else at all.
 
+## Targets ##
+
+The "Runner" build scheme produces a universal iOS application that uses one storyboard
+for all display sizes (including those that don't exist yet), and lets you run the
+single command it's built to use multiple times.
+
+The "runner" build scheme produces a command-line Unix application for OS X that invokes
+the single command it's built to use once per argument.
+
 ## History and Background ##
 
 (Nobody wants to read that.  If I'm wrong, go look at the EXTENDED_README.md

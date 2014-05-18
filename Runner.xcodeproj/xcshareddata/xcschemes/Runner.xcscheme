@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47124B5719280D30005C11CE"
-               BuildableName = "Runner.app"
-               BlueprintName = "Runner"
+               BlueprintIdentifier = "4717B8971929312900001C46"
+               BuildableName = "runner"
+               BlueprintName = "runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47124B7B19280D30005C11CE"
-               BuildableName = "RunnerTests.xctest"
-               BlueprintName = "RunnerTests"
-               ReferencedContainer = "container:Runner.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47124B5719280D30005C11CE"
-            BuildableName = "Runner.app"
-            BlueprintName = "Runner"
+            BlueprintIdentifier = "4717B8971929312900001C46"
+            BuildableName = "runner"
+            BlueprintName = "runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,12 +51,18 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47124B5719280D30005C11CE"
-            BuildableName = "Runner.app"
-            BlueprintName = "Runner"
+            BlueprintIdentifier = "4717B8971929312900001C46"
+            BuildableName = "runner"
+            BlueprintName = "runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "foo bar baz"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -79,9 +75,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47124B5719280D30005C11CE"
-            BuildableName = "Runner.app"
-            BlueprintName = "Runner"
+            BlueprintIdentifier = "4717B8971929312900001C46"
+            BuildableName = "runner"
+            BlueprintName = "runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

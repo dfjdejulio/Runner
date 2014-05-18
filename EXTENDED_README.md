@@ -67,7 +67,7 @@ filed off, but has some key differences (like "there's only ever one window,
 and it can't be resized").  And the changes to the language started really
 accelerating, with these crazy "properties" and "dot syntax" and "attributes"
 and "synthesize" and later, *garbage collection*... back in *my* day,
-we allocated objects by hand *and we liked it*!  But now istead of alloc
+we allocated objects by hand *and we liked it*!  But now instead of alloc
 and zones and stuff, I was supposed to use retain/release?  And *then* they
 jettisonded GCC, and could add even more off-the-wall features, and got rid of
 retain/release, and we got a runtime with "Automatic Reference Counting"

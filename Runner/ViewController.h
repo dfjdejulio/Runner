@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KBBLayoutConstraint.h"
+#import "DefaultCommand.h"
 
 @interface ViewController : UIViewController
 
@@ -15,6 +15,7 @@
 
 @property IBOutlet UITextView *output;
 @property IBOutlet UITextField *input;
+@property IBOutlet DefaultCommand *command;
 
 #pragma mark Actions
 

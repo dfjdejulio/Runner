@@ -6,7 +6,6 @@ build
 *.perspectivev3
 *.xcuserdatad
 *.xccheckout
-project.xcworkspace
 
 # old skool
 .svn

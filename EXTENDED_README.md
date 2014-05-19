@@ -80,7 +80,7 @@ devices.
 
 I get the sense that things have settled down a bit.  We've got easy-to-use
 garbage collection.  We've got exception handling.  We've got a notification
-bus.  We've got "automatic boxing and unboxing".  We've got pretty some pretty
+bus.  We've got "automatic boxing and unboxing".  We've got some pretty
 good language bridges.  We've got a vibrant open source community, sharing
 useful frameworks.  The glue between the parts of the program you write by
 hand and the parts you build on an etch-a-sketch seems to be getting simpler

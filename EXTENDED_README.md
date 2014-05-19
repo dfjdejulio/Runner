@@ -165,7 +165,7 @@ line for debugging and then deploy it all over the damned place.
 I've toyed with the idea of using the same pattern in Objective-C for a while
 now.  I'm not yet sure it's a good idea.  I _am_ sure that I want to reuse a
 lot of future code between OS X applications, iOS applications, command line
-tools, OS X "Services", AppleTalk extensions and server applications (for
+tools, OS X "Services", AppleScript extensions and server applications (for
 starters).  So, I _am_ sure I want to play around with the concept, and I'm
 sure I want frameworks to embed the things in all of those places, for my
 experiments.

@@ -29,6 +29,15 @@ in height (eg. switching between "en" and "ja"), your app acts like it can
 resize windows and everything just gets out of the keyboard's way.  And none
 of the keyboard layout handling code shows up anywhere else at all.
 
+## TODO ##
+
+- [ ] add a few more commands
+ - [ ] iOS diagnostics/debugging
+ - [ ] JavaScriptCore experiments
+ - [ ] AppleScript-related
+ - [ ] OS X "Service"-related
+- [ ] add an interface for selecting among multiple commands
+
 ## History and Background ##
 
 (Nobody wants to read that.  If I'm wrong, go look at the EXTENDED_README.md

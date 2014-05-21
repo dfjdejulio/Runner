@@ -33,6 +33,7 @@
 		47512F211929521500B2E719 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
 		47512F221929521500B2E719 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
 		47512F231929521E00B2E719 /* CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47124B8919280D30005C11CE /* CommandTests.m */; };
+		4774CD26192D4D3C008B526F /* UITextView+BILogTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */; };
 		4781FE14192903AA0053A57B /* EXTENDED_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4781FE13192903AA0053A57B /* EXTENDED_README.md */; };
 		47C047D31929188C000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
 		47C047D419291E03000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
@@ -108,6 +109,8 @@
 		47512F13192951F900B2E719 /* Runner Tests for OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runner Tests for OS X-Info.plist"; sourceTree = "<group>"; };
 		47512F15192951F900B2E719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47512F19192951F900B2E719 /* Runner Tests for OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner Tests for OS X-Prefix.pch"; sourceTree = "<group>"; };
+		4774CD24192D4D3C008B526F /* UITextView+BILogTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BILogTextView.h"; sourceTree = "<group>"; };
+		4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BILogTextView.m"; sourceTree = "<group>"; };
 		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4781FE13192903AA0053A57B /* EXTENDED_README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EXTENDED_README.md; sourceTree = "<group>"; };
 		47C047D21929188C000EFA25 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 				47124B6219280D30005C11CE /* Supporting Files */,
 				4747483419285CFC00F50553 /* KBBLayoutConstraint.h */,
 				4747483519285CFC00F50553 /* KBBLayoutConstraint.m */,
+				4774CD24192D4D3C008B526F /* UITextView+BILogTextView.h */,
+				4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -443,6 +448,7 @@
 				47124B6C19280D30005C11CE /* AppDelegate.m in Sources */,
 				47FFA694192961DD00F1CA2A /* ScreenTestCommand.m in Sources */,
 				4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */,
+				4774CD26192D4D3C008B526F /* UITextView+BILogTextView.m in Sources */,
 				47124B6819280D30005C11CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

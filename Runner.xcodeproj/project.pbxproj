@@ -98,9 +98,9 @@
 		47124B8919280D30005C11CE /* CommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandTests.m; sourceTree = "<group>"; };
 		4747483419285CFC00F50553 /* KBBLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBLayoutConstraint.h; sourceTree = "<group>"; };
 		4747483519285CFC00F50553 /* KBBLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBLayoutConstraint.m; sourceTree = "<group>"; };
-		4747483719289E0C00F50553 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
-		4747483819289E6200F50553 /* HelloSailorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloSailorCommand.h; sourceTree = "<group>"; };
-		4747483919289E6200F50553 /* HelloSailorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloSailorCommand.m; sourceTree = "<group>"; };
+		4747483719289E0C00F50553 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Command.h; path = ../Commands/Command.h; sourceTree = "<group>"; };
+		4747483819289E6200F50553 /* HelloSailorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloSailorCommand.h; path = ../Commands/HelloSailorCommand.h; sourceTree = "<group>"; };
+		4747483919289E6200F50553 /* HelloSailorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloSailorCommand.m; path = ../Commands/HelloSailorCommand.m; sourceTree = "<group>"; };
 		47512EFF192951AB00B2E719 /* runnersh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = runnersh; sourceTree = BUILT_PRODUCTS_DIR; };
 		47512F02192951AB00B2E719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47512F05192951AB00B2E719 /* runnersh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "runnersh-Prefix.pch"; sourceTree = "<group>"; };
@@ -113,11 +113,11 @@
 		4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BILogTextView.m"; sourceTree = "<group>"; };
 		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4781FE13192903AA0053A57B /* EXTENDED_README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EXTENDED_README.md; sourceTree = "<group>"; };
-		47C047D21929188C000EFA25 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
-		47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEvalCommand.h; sourceTree = "<group>"; };
-		47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEvalCommand.m; sourceTree = "<group>"; };
-		47FFA692192961DD00F1CA2A /* ScreenTestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenTestCommand.h; sourceTree = "<group>"; };
-		47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenTestCommand.m; sourceTree = "<group>"; };
+		47C047D21929188C000EFA25 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Command.m; path = ../Commands/Command.m; sourceTree = "<group>"; };
+		47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSEvalCommand.h; path = ../Commands/JSEvalCommand.h; sourceTree = "<group>"; };
+		47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSEvalCommand.m; path = ../Commands/JSEvalCommand.m; sourceTree = "<group>"; };
+		47FFA692192961DD00F1CA2A /* ScreenTestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenTestCommand.h; path = ../Commands/ScreenTestCommand.h; sourceTree = "<group>"; };
+		47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenTestCommand.m; path = ../Commands/ScreenTestCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

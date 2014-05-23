@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "JSEvalCommand.h"
+#import "UITextView+BILogTextView.h"
 
 @interface ViewController ()
 
@@ -29,13 +30,11 @@
 {
     self.command.input = self.input.text;
     [self.command execute];
-    NSMutableString *outputBuffer = [[NSMutableString alloc] initWithString:self.output.text];
-    [outputBuffer appendString:self.command.input];
-    [outputBuffer appendString:@" → "];
-    [outputBuffer appendString:self.command.output];
-    [outputBuffer appendString:@"\n"];
-    self.output.text = outputBuffer;
-    [self.output scrollRangeToVisible:NSMakeRange(self.output.text.length, 0)];
+
+    [self.output appendBold: self.command.input];
+    [self.output appendBold: @" → "];
+    [self.output append: self.command.output];
+    [self.output append: @"\n"];
 }
 
 @end

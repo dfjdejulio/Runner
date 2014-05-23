@@ -19,10 +19,12 @@ int main(int argc, const char * argv[])
                                    @"hello": [HelloSailorCommand new],
                                    };
         for (int i = 2; i < argc; i++) {
-            Command *cmd = cmds[@(argv[1])];
-            cmd.input = @(argv[i]);
-            [cmd execute];
-            printf("%d: %s → %s\n", i, argv[i], cmd.output.UTF8String);
+            @autoreleasepool {
+                Command *cmd = cmds[@(argv[1])];
+                cmd.input = @(argv[i]);
+                [cmd execute];
+                printf("%d: %s → %s\n", i, argv[i], cmd.output.UTF8String);
+            }
         }
 
     }

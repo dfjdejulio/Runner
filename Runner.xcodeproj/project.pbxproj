@@ -160,6 +160,7 @@
 		47124B4F19280D2F005C11CE = {
 			isa = PBXGroup;
 			children = (
+				47FFA6911929614500F1CA2A /* Commands */,
 				47124B6119280D30005C11CE /* Runner */,
 				47124B8319280D30005C11CE /* RunnerTests */,
 				47512F01192951AB00B2E719 /* runnersh */,
@@ -196,7 +197,6 @@
 		47124B6119280D30005C11CE /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				47FFA6911929614500F1CA2A /* Commands */,
 				47124B6A19280D30005C11CE /* AppDelegate.h */,
 				47124B6B19280D30005C11CE /* AppDelegate.m */,
 				47124B6D19280D30005C11CE /* Main.storyboard */,
@@ -288,6 +288,7 @@
 				47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */,
 			);
 			name = Commands;
+			path = Runner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -11,6 +11,12 @@
 
 #define HELLO_SAILOR_STRING @"Hello, %@!"
 
+/**
+ 
+ A trivial command, saying "hello" to its input.
+ 
+ */
+
 @interface HelloSailorCommand : Command
 
 @end

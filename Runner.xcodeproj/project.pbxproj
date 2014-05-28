@@ -47,6 +47,10 @@
 		47512F211929521500B2E719 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
 		47512F221929521500B2E719 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
 		47512F231929521E00B2E719 /* CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47124B8919280D30005C11CE /* CommandTests.m */; };
+		475FE8A519356714009A9DC0 /* CommandsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FE8A419356714009A9DC0 /* CommandsCommand.m */; };
+		475FE8A619356714009A9DC0 /* CommandsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FE8A419356714009A9DC0 /* CommandsCommand.m */; };
+		475FE8A719356714009A9DC0 /* CommandsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FE8A419356714009A9DC0 /* CommandsCommand.m */; };
+		475FE8A819356714009A9DC0 /* CommandsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FE8A419356714009A9DC0 /* CommandsCommand.m */; };
 		4774CD26192D4D3C008B526F /* UITextView+BILogTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */; };
 		4781FE14192903AA0053A57B /* EXTENDED_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4781FE13192903AA0053A57B /* EXTENDED_README.md */; };
 		47C047D31929188C000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
@@ -124,6 +128,8 @@
 		47512F13192951F900B2E719 /* Runner Tests for OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runner Tests for OS X-Info.plist"; sourceTree = "<group>"; };
 		47512F15192951F900B2E719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47512F19192951F900B2E719 /* Runner Tests for OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner Tests for OS X-Prefix.pch"; sourceTree = "<group>"; };
+		475FE8A319356714009A9DC0 /* CommandsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandsCommand.h; sourceTree = "<group>"; };
+		475FE8A419356714009A9DC0 /* CommandsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandsCommand.m; sourceTree = "<group>"; };
 		4774CD24192D4D3C008B526F /* UITextView+BILogTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BILogTextView.h"; sourceTree = "<group>"; };
 		4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BILogTextView.m"; sourceTree = "<group>"; };
 		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -308,6 +314,8 @@
 				47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */,
 				47FFA692192961DD00F1CA2A /* ScreenTestCommand.h */,
 				47FFA693192961DD00F1CA2A /* ScreenTestCommand.m */,
+				475FE8A319356714009A9DC0 /* CommandsCommand.h */,
+				475FE8A419356714009A9DC0 /* CommandsCommand.m */,
 			);
 			name = Commands;
 			path = Runner;
@@ -486,6 +494,7 @@
 				4747483619285CFC00F50553 /* KBBLayoutConstraint.m in Sources */,
 				4774CD26192D4D3C008B526F /* UITextView+BILogTextView.m in Sources */,
 				47124B6819280D30005C11CE /* main.m in Sources */,
+				475FE8A519356714009A9DC0 /* CommandsCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +507,7 @@
 				47FFA68E19295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				47FFA695192961DD00F1CA2A /* ScreenTestCommand.m in Sources */,
 				47C047D419291E03000EFA25 /* Command.m in Sources */,
+				475FE8A619356714009A9DC0 /* CommandsCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +519,7 @@
 				47512F03192951AB00B2E719 /* main.m in Sources */,
 				47FFA68F19295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				47512F1F1929520F00B2E719 /* Command.m in Sources */,
+				475FE8A719356714009A9DC0 /* CommandsCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +531,7 @@
 				47512F201929521000B2E719 /* Command.m in Sources */,
 				47FFA69019295A5700F1CA2A /* JSEvalCommand.m in Sources */,
 				47512F231929521E00B2E719 /* CommandTests.m in Sources */,
+				475FE8A819356714009A9DC0 /* CommandsCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,14 +803,24 @@
 		47FEE8F5193549DC0035C071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				VALID_ARCHS = "i386 x86_64 arm7";
 			};
 			name = Debug;
 		};
 		47FEE8F6193549DC0035C071 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				VALID_ARCHS = "i386 x86_64 arm7";
 			};
 			name = Release;
 		};
@@ -857,6 +879,7 @@
 				47FEE8F6193549DC0035C071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,4 +19,7 @@
 
 @interface HelloSailorCommand : Command
 
+/// The format string to use on the input.
+@property (copy, nonatomic) NSString *format;
+
 @end

@@ -16,15 +16,11 @@
 {
     self = [super init];
     jscontext = [JSContext new];
+    name = @"JSEval";
     return self;
 }
 
 #pragma mark Properties
-
-- (NSString *) getName
-{
-    return @"JSEval";
-}
 
 #pragma mark Method
 

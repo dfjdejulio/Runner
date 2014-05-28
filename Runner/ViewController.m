@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "HelloSailorCommand.h"
 #import "JSEvalCommand.h"
+#import "ScreenTestCommand.h"
+#import "CommandsCommand.h"
 #import "UITextView+BILogTextView.h"
 
 @interface ViewController ()
@@ -21,7 +24,16 @@
 - (void) awakeFromNib
 {
     // If you grow up in a nib file, this is your init.
-    self.command = [JSEvalCommand new];
+    CommandsCommand *cmd = [CommandsCommand new];
+    // Add three commands with their default names.
+    [cmd addCommand:[HelloSailorCommand new]];
+    [cmd addCommand:[JSEvalCommand new]];
+    [cmd addCommand:[ScreenTestCommand new]];
+    // ...and this is an example of why you might use a non-default name.
+    HelloSailorCommand *goodbye = [HelloSailorCommand new];
+    goodbye.format = @"So long, %@!";
+    [cmd addCommand:goodbye withName:@"Goodbye"];
+    self.command = cmd;
 }
 
 #pragma mark Actions

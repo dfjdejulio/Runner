@@ -16,6 +16,7 @@
 
 @interface Command : NSObject {
     @protected NSString *output;
+    @protected NSString *name;
 }
 
 /// The command's input.

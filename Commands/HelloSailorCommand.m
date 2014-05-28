@@ -10,14 +10,17 @@
 
 @implementation HelloSailorCommand
 
-- (NSString *) getName
-{
-    return @"HelloSailor";
-}
-
 - (void) execute
 {
-    output = [NSString stringWithFormat:@"Hello, %@!", self.input];
+    output = [NSString stringWithFormat:self.format, self.input];
+}
+
+- (HelloSailorCommand *) init
+{
+    self = [super init];
+    _format = HELLO_SAILOR_STRING;
+    name = @"Hello";
+    return self;
 }
 
 @end

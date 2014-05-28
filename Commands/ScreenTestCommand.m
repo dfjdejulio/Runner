@@ -17,14 +17,8 @@
     self = [super init];
     output = [NSMutableString new];
     accessoryManager = EAAccessoryManager.sharedAccessoryManager;
+    name = @"ScreenTest";
     return self;
-}
-
-#pragma mark Properties
-
-- (NSString *) getName
-{
-    return @"ScreenTest";
 }
 
 #pragma mark Method

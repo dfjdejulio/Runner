@@ -56,6 +56,10 @@
 		47C047D31929188C000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
 		47C047D419291E03000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
 		47C047D519291E05000EFA25 /* HelloSailorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747483919289E6200F50553 /* HelloSailorCommand.m */; };
+		47F149D9193690A700D3D638 /* BluetoothTestCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F149D8193690A700D3D638 /* BluetoothTestCommand.m */; };
+		47F149DB1936912F00D3D638 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F149DA1936912F00D3D638 /* CoreBluetooth.framework */; };
+		47F149DD1936945300D3D638 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F149DC1936945300D3D638 /* IOBluetooth.framework */; };
+		47F149DE1936946400D3D638 /* BluetoothTestCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F149D8193690A700D3D638 /* BluetoothTestCommand.m */; };
 		47FEE8F2193549C90035C071 /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47FEE8F1193549C90035C071 /* AppledocSettings.plist */; };
 		47FFA68D19295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
 		47FFA68E19295A5700F1CA2A /* JSEvalCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */; };
@@ -128,13 +132,17 @@
 		47512F13192951F900B2E719 /* Runner Tests for OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runner Tests for OS X-Info.plist"; sourceTree = "<group>"; };
 		47512F15192951F900B2E719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47512F19192951F900B2E719 /* Runner Tests for OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner Tests for OS X-Prefix.pch"; sourceTree = "<group>"; };
-		475FE8A319356714009A9DC0 /* CommandsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandsCommand.h; sourceTree = "<group>"; };
-		475FE8A419356714009A9DC0 /* CommandsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandsCommand.m; sourceTree = "<group>"; };
+		475FE8A319356714009A9DC0 /* CommandsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandsCommand.h; path = ../Commands/CommandsCommand.h; sourceTree = "<group>"; };
+		475FE8A419356714009A9DC0 /* CommandsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandsCommand.m; path = ../Commands/CommandsCommand.m; sourceTree = "<group>"; };
 		4774CD24192D4D3C008B526F /* UITextView+BILogTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BILogTextView.h"; sourceTree = "<group>"; };
 		4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BILogTextView.m"; sourceTree = "<group>"; };
 		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4781FE13192903AA0053A57B /* EXTENDED_README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EXTENDED_README.md; sourceTree = "<group>"; };
 		47C047D21929188C000EFA25 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Command.m; path = ../Commands/Command.m; sourceTree = "<group>"; };
+		47F149D7193690A700D3D638 /* BluetoothTestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BluetoothTestCommand.h; path = ../Commands/BluetoothTestCommand.h; sourceTree = "<group>"; };
+		47F149D8193690A700D3D638 /* BluetoothTestCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BluetoothTestCommand.m; path = ../Commands/BluetoothTestCommand.m; sourceTree = "<group>"; };
+		47F149DA1936912F00D3D638 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		47F149DC1936945300D3D638 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework; sourceTree = DEVELOPER_DIR; };
 		47FEE8F1193549C90035C071 /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
 		47FFA68B19295A5700F1CA2A /* JSEvalCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSEvalCommand.h; path = ../Commands/JSEvalCommand.h; sourceTree = "<group>"; };
 		47FFA68C19295A5700F1CA2A /* JSEvalCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSEvalCommand.m; path = ../Commands/JSEvalCommand.m; sourceTree = "<group>"; };
@@ -147,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F149DB1936912F00D3D638 /* CoreBluetooth.framework in Frameworks */,
 				47124B5E19280D30005C11CE /* CoreGraphics.framework in Frameworks */,
 				47124B6019280D30005C11CE /* UIKit.framework in Frameworks */,
 				47124B5C19280D30005C11CE /* Foundation.framework in Frameworks */,
@@ -167,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F149DD1936945300D3D638 /* IOBluetooth.framework in Frameworks */,
 				47512F00192951AB00B2E719 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +222,8 @@
 		47124B5A19280D30005C11CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47F149DC1936945300D3D638 /* IOBluetooth.framework */,
+				47F149DA1936912F00D3D638 /* CoreBluetooth.framework */,
 				47124B5B19280D30005C11CE /* Foundation.framework */,
 				47124B5D19280D30005C11CE /* CoreGraphics.framework */,
 				47124B5F19280D30005C11CE /* UIKit.framework */,
@@ -306,6 +318,8 @@
 		47FFA6911929614500F1CA2A /* Commands */ = {
 			isa = PBXGroup;
 			children = (
+				47F149D7193690A700D3D638 /* BluetoothTestCommand.h */,
+				47F149D8193690A700D3D638 /* BluetoothTestCommand.m */,
 				4747483719289E0C00F50553 /* Command.h */,
 				47C047D21929188C000EFA25 /* Command.m */,
 				4747483819289E6200F50553 /* HelloSailorCommand.h */,
@@ -495,6 +509,7 @@
 				4774CD26192D4D3C008B526F /* UITextView+BILogTextView.m in Sources */,
 				47124B6819280D30005C11CE /* main.m in Sources */,
 				475FE8A519356714009A9DC0 /* CommandsCommand.m in Sources */,
+				47F149D9193690A700D3D638 /* BluetoothTestCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +530,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F149DE1936946400D3D638 /* BluetoothTestCommand.m in Sources */,
 				47512F211929521500B2E719 /* HelloSailorCommand.m in Sources */,
 				47512F03192951AB00B2E719 /* main.m in Sources */,
 				47FFA68F19295A5700F1CA2A /* JSEvalCommand.m in Sources */,

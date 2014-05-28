@@ -57,16 +57,19 @@
 	i=1;
 	for (EAAccessory *accessory in accessoryManager.connectedAccessories) {
 		[o appendFormat: @"\nAccessory %d", i++];
+		if (accessory.connected) {
+			[o appendString: @" (connected)"];
+		}
 		[o appendString: @"\n  Name: \""];
 		[o appendString: accessory.name];
-		[o appendString: @"\" manufacturer \""];
+		[o appendString: @"\"\n  Manufacturer \""];
 		[o appendString: accessory.manufacturer];
 		[o appendString: @"\""];
-		if (accessory.connected) {
-			[o appendString: @"\n  Connected!"];
-		} else {
-			[o appendString: @"\n  Not connected."];
-		}
+        for (NSString *protocol in accessory.protocolStrings) {
+            [o appendString:@"\n    protocol: "];
+            [o appendString:protocol];
+            [o appendString:@"\n"];
+        }
 	}
 }
 

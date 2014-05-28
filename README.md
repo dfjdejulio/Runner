@@ -36,7 +36,7 @@ of the keyboard layout handling code shows up anywhere else at all.
  - [ ] JavaScriptCore experiments
  - [ ] AppleScript-related
  - [ ] OS X "Service"-related
-- [ ] add an interface for selecting among multiple commands
+- [x] add an interface for selecting among multiple commands
 
 ## History and Background ##
 

@@ -33,7 +33,7 @@ of the keyboard layout handling code shows up anywhere else at all.
 
 - [ ] add a few more commands
  - [ ] iOS diagnostics/debugging
- - [ ] JavaScriptCore experiments
+ - [x] JavaScriptCore experiments
  - [ ] AppleScript-related
  - [ ] OS X "Service"-related
 - [x] add an interface for selecting among multiple commands

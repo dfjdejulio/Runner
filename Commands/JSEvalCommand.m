@@ -10,6 +10,8 @@
 
 @implementation JSEvalCommand
 
+@synthesize context = jscontext;
+
 #pragma mark Lifecycle
 
 - (JSEvalCommand *) init

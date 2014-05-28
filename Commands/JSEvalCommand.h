@@ -21,4 +21,7 @@
     JSContext *jscontext;
 }
 
+/// The persistent JSContext object backing this command.
+@property JSContext *context;
+
 @end

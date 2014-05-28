@@ -30,19 +30,27 @@
     NSMutableString *o = (NSMutableString *)output;
 
 	[o setString: @"Device Info:"];
-	if ([UIScreen respondsToSelector:@selector(screens)]) {
-		[o appendFormat: @"\n\nScreens: %lu", (unsigned long)UIScreen.screens.count];
-		i = 1;
-		for(UIScreen *thisScreen in UIScreen.screens) {
-			[o appendFormat: @"\nScreen %d:", i++];
-			[o appendFormat: @"\n  Modes: %lu", (unsigned long)thisScreen.availableModes.count];
-			for (UIScreenMode *thisMode in thisScreen.availableModes) {
-				[o appendFormat: @"\n    %.0fx%.0f (%.2f:1)", thisMode.size.width, thisMode.size.height, thisMode.pixelAspectRatio];
-			}
+    [o appendFormat: @"\n\nScreens: %lu", (unsigned long)UIScreen.screens.count];
+    i = 1;
+    for(UIScreen *thisScreen in UIScreen.screens) {
+        [o appendFormat: @"\nScreen %d:", i++];
+        if (thisScreen == [UIScreen mainScreen]) {
+            [o appendString:@" (main)"];
+        }
+        if (thisScreen.mirroredScreen) {
+            [o appendString:@" (mirrored)"];
+        }
+        [o appendFormat: @"\n  Modes: %lu", (unsigned long)thisScreen.availableModes.count];
+        for (UIScreenMode *thisMode in thisScreen.availableModes) {
+			[o appendFormat: @"\n    %.0fx%.0f (%.2f:1)", thisMode.size.width, thisMode.size.height, thisMode.pixelAspectRatio];
+            if (thisMode == thisScreen.preferredMode) {
+                [o appendString:@" (preferred)"];
+            }
+            if (thisMode == thisScreen.currentMode) {
+                [o appendString:@" (current)"];
+            }
 		}
-	} else {
-		[o appendString: @"\nCan't have multiple screens."];
-	}
+    }
 
 	[o appendFormat: @"\n\nAccessories: %lu", (unsigned long)accessoryManager.connectedAccessories.count];
 

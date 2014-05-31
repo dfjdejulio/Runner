@@ -1,15 +1,4 @@
-# xcode noise
+# Xcode
 build
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xcuserdatad
+xcuserdata
 *.xccheckout
-
-# old skool
-.svn
-
-# osx noise
-.DS_Store
-profile

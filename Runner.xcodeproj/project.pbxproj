@@ -51,6 +51,11 @@
 		475FE8A619356714009A9DC0 /* CommandsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FE8A419356714009A9DC0 /* CommandsCommand.m */; };
 		475FE8A719356714009A9DC0 /* CommandsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FE8A419356714009A9DC0 /* CommandsCommand.m */; };
 		475FE8A819356714009A9DC0 /* CommandsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FE8A419356714009A9DC0 /* CommandsCommand.m */; };
+		476D99771BED3A9A00EDA85A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 476D99761BED3A9A00EDA85A /* main.m */; };
+		476D997A1BED3A9A00EDA85A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476D99791BED3A9A00EDA85A /* AppDelegate.m */; };
+		476D997D1BED3A9A00EDA85A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476D997C1BED3A9A00EDA85A /* ViewController.m */; };
+		476D99801BED3A9A00EDA85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476D997E1BED3A9A00EDA85A /* Main.storyboard */; };
+		476D99821BED3A9A00EDA85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476D99811BED3A9A00EDA85A /* Assets.xcassets */; };
 		4774CD26192D4D3C008B526F /* UITextView+BILogTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */; };
 		4781FE14192903AA0053A57B /* EXTENDED_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4781FE13192903AA0053A57B /* EXTENDED_README.md */; };
 		47C047D31929188C000EFA25 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C047D21929188C000EFA25 /* Command.m */; };
@@ -134,6 +139,15 @@
 		47512F19192951F900B2E719 /* Runner Tests for OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner Tests for OS X-Prefix.pch"; sourceTree = "<group>"; };
 		475FE8A319356714009A9DC0 /* CommandsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandsCommand.h; path = ../Commands/CommandsCommand.h; sourceTree = "<group>"; };
 		475FE8A419356714009A9DC0 /* CommandsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandsCommand.m; path = ../Commands/CommandsCommand.m; sourceTree = "<group>"; };
+		476D99731BED3A9A00EDA85A /* TV Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476D99761BED3A9A00EDA85A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		476D99781BED3A9A00EDA85A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		476D99791BED3A9A00EDA85A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		476D997B1BED3A9A00EDA85A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		476D997C1BED3A9A00EDA85A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		476D997F1BED3A9A00EDA85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		476D99811BED3A9A00EDA85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		476D99831BED3A9A00EDA85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4774CD24192D4D3C008B526F /* UITextView+BILogTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BILogTextView.h"; sourceTree = "<group>"; };
 		4774CD25192D4D3C008B526F /* UITextView+BILogTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BILogTextView.m"; sourceTree = "<group>"; };
 		4781FE121928FEF70053A57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -189,6 +203,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		476D99701BED3A9A00EDA85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -201,6 +222,7 @@
 				47124B8319280D30005C11CE /* RunnerTests */,
 				47512F01192951AB00B2E719 /* runnersh */,
 				47512F11192951F900B2E719 /* Runner Tests for OS X */,
+				476D99741BED3A9A00EDA85A /* TV Runner */,
 				47124B5A19280D30005C11CE /* Frameworks */,
 				47124B5919280D30005C11CE /* Products */,
 				4781FE121928FEF70053A57B /* README.md */,
@@ -215,6 +237,7 @@
 				47124B7C19280D30005C11CE /* RunnerTests.xctest */,
 				47512EFF192951AB00B2E719 /* runnersh */,
 				47512F0F192951F900B2E719 /* Runner Tests for OS X.xctest */,
+				476D99731BED3A9A00EDA85A /* TV Runner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -315,6 +338,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		476D99741BED3A9A00EDA85A /* TV Runner */ = {
+			isa = PBXGroup;
+			children = (
+				476D99781BED3A9A00EDA85A /* AppDelegate.h */,
+				476D99791BED3A9A00EDA85A /* AppDelegate.m */,
+				476D997B1BED3A9A00EDA85A /* ViewController.h */,
+				476D997C1BED3A9A00EDA85A /* ViewController.m */,
+				476D997E1BED3A9A00EDA85A /* Main.storyboard */,
+				476D99811BED3A9A00EDA85A /* Assets.xcassets */,
+				476D99831BED3A9A00EDA85A /* Info.plist */,
+				476D99751BED3A9A00EDA85A /* Supporting Files */,
+			);
+			path = "TV Runner";
+			sourceTree = "<group>";
+		};
+		476D99751BED3A9A00EDA85A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				476D99761BED3A9A00EDA85A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		47FFA6911929614500F1CA2A /* Commands */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,6 +454,23 @@
 			productReference = 47512F0F192951F900B2E719 /* Runner Tests for OS X.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		476D99721BED3A9A00EDA85A /* TV Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476D99841BED3A9A00EDA85A /* Build configuration list for PBXNativeTarget "TV Runner" */;
+			buildPhases = (
+				476D996F1BED3A9A00EDA85A /* Sources */,
+				476D99701BED3A9A00EDA85A /* Frameworks */,
+				476D99711BED3A9A00EDA85A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV Runner";
+			productName = "TV Runner";
+			productReference = 476D99731BED3A9A00EDA85A /* TV Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -422,6 +485,9 @@
 					};
 					47512F0E192951F900B2E719 = {
 						TestTargetID = 47512EFE192951AB00B2E719;
+					};
+					476D99721BED3A9A00EDA85A = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
@@ -443,6 +509,7 @@
 				47512EFE192951AB00B2E719 /* runnersh */,
 				47512F0E192951F900B2E719 /* Runner Tests for OS X */,
 				47FEE8F3193549DB0035C071 /* Documentation */,
+				476D99721BED3A9A00EDA85A /* TV Runner */,
 			);
 		};
 /* End PBXProject section */
@@ -473,6 +540,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				47512F16192951F900B2E719 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476D99711BED3A9A00EDA85A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476D99821BED3A9A00EDA85A /* Assets.xcassets in Resources */,
+				476D99801BED3A9A00EDA85A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +627,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		476D996F1BED3A9A00EDA85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476D997D1BED3A9A00EDA85A /* ViewController.m in Sources */,
+				476D997A1BED3A9A00EDA85A /* AppDelegate.m in Sources */,
+				476D99771BED3A9A00EDA85A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -597,6 +683,14 @@
 				47512F15192951F900B2E719 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		476D997E1BED3A9A00EDA85A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476D997F1BED3A9A00EDA85A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -819,6 +913,47 @@
 			};
 			name = Release;
 		};
+		476D99851BED3A9A00EDA85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "TV Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.TV-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		476D99861BED3A9A00EDA85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "TV Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aisb.TV-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		47FEE8F5193549DC0035C071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -888,6 +1023,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		476D99841BED3A9A00EDA85A /* Build configuration list for PBXNativeTarget "TV Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476D99851BED3A9A00EDA85A /* Debug */,
+				476D99861BED3A9A00EDA85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		47FEE8F4193549DC0035C071 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
 			isa = XCConfigurationList;

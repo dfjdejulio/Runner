@@ -417,6 +417,9 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = AISB;
 				TargetAttributes = {
+					47124B5719280D30005C11CE = {
+						DevelopmentTeam = 2ZM9YDU9XJ;
+					};
 					47124B7B19280D30005C11CE = {
 						TestTargetID = 47124B5719280D30005C11CE;
 					};
@@ -700,6 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2ZM9YDU9XJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runner/Runner-Prefix.pch";
 				INFOPLIST_FILE = "Runner/Runner-Info.plist";
@@ -715,6 +719,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2ZM9YDU9XJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runner/Runner-Prefix.pch";
 				INFOPLIST_FILE = "Runner/Runner-Info.plist";

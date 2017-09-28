@@ -23,6 +23,8 @@
 
 - (void) awakeFromNib
 {
+    [super awakeFromNib];
+    
     // If you grow up in a nib file, this is your init.
     CommandsCommand *cmd = [CommandsCommand new];
     // Add three commands with their default names.
